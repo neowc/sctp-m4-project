@@ -14,3 +14,5 @@ git checkout main
 git merge develop
 git branch -d release/0.1.0
 ```
+
+This is added from develop branch
