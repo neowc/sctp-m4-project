@@ -65,7 +65,7 @@ public class DepartmentServiceImplTest {
     when(departmentRepository.findById(1)).thenReturn(Optional.of(newdepartment));
 
     // Act
-    Department foundDepartment = departmentService.getDepartment(3);
+    Department foundDepartment = departmentService.getDepartment(1);
 
     // Assert
     assertEquals(newdepartment, foundDepartment);
