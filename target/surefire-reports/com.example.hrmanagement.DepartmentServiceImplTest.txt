@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.example.hrmanagement.DepartmentServiceImplTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.056 s - in com.example.hrmanagement.DepartmentServiceImplTest
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.257 s <<< FAILURE! - in com.example.hrmanagement.DepartmentServiceImplTest
+getDepartmentTest  Time elapsed: 0.016 s  <<< ERROR!
+com.example.hr_management.exception.DepartmentNotFoundException: Department with id 3 not found.
+	at com.example.hrmanagement.DepartmentServiceImplTest.getDepartmentTest(DepartmentServiceImplTest.java:68)
+
